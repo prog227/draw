@@ -1,0 +1,50 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  .wrapper,
+   .flex {
+   display: flex;
+  }
+  
+  nav {
+    flex: 0 0 300px;
+    background: #ccc;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  nav ul li span,
+  nav ul li button {
+    display: block;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul li button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  button {
+      border: 1 px solid #0704ac;
+      color: #0414fc;
+      background: #fff;
+      text-decoration: underline;
+      border-radius: 15px;
+      box-shadow: 10px 5px 5px #000000;
+      }
