@@ -2,15 +2,14 @@ html {
     font-family: sans-serif;
   }
   
-  .wrapper,
-   .flex {
-   display: flex;
+  .wrapper {
+    display: flex;
   }
   
   nav {
     flex: 0 0 300px;
     background: #ccc;
-    min-height: 200vh;
+    min-height: 100vh;
   }
   
   main {
@@ -38,17 +37,4 @@ html {
   
   nav ul li button {
     width: 100%;
-    margin: 0 auto;
-  }
-  button {
-      border: 20 px solid rgb(224, 50, 20);
-      color: #fff;
-      background: #4a18d3;
-      text-decoration: none;
-      border-radius: 20px;
-      //box-shadow: 10px 5px 5px #000;
-      }
-
-  input {
-    margin : .5rem;
   }
